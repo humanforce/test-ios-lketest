@@ -8,12 +8,6 @@ struct ContentView: View {
             Image(systemName: "hand.wave")
                 .font(.title)
                 .symbolEffect(.wiggle)
-            Text("Humanforce iOS Engineering Challenge")
-                .font(.title)
-                .multilineTextAlignment(.center)
-            Text("Refer to project README for requirements!")
-                .font(.caption)
-                .multilineTextAlignment(.center)
         }
         .padding()
     }
